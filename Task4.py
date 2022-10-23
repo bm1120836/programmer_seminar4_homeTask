@@ -21,3 +21,7 @@ for i in range(len(koefs)):
     result = result + str(koefs[i]) + 'x^' + str(k - i)
 result = result + ' =0'
 print(result)
+
+with open('Task4.txt', 'w') as data:
+    data.write(result)
+
